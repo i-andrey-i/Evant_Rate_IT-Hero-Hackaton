@@ -1,5 +1,6 @@
 import './Log_in.css'
-import React, { useState } from 'react'
+import React, { useState, useNavigate } from 'react'
+import { Link} from 'react-router-dom'
 
 function Log_in(){
 	const[formData, setFormData] = useState({
@@ -17,15 +18,17 @@ function Log_in(){
 	};
 
 	const handleSubmit = async(e) =>{
-		e.preventDefault();
-		const server = await fetch('http://172.25.14.139:8090/api/auth/register', {
-			method: 'POST',
-			headers: {
-				'Content-Type': 'application/json',
-			},
-		})
-		const data = await server.json()
-		console.log(data)
+
+
+		// e.preventDefault();
+		// const server = await fetch('http://172.25.14.139:8090/api/auth/register', {
+		// 	method: 'POST',
+		// 	headers: {
+		// 		'Content-Type': 'application/json',
+		// 	},
+		// })
+		// const data = await server.json()
+		// console.log(data)
 	}
 		
 
@@ -52,13 +55,18 @@ function Log_in(){
 						required
 					/>
 					<p className='link_pass'>Забыли пароль?</p>
-					<button className='enter' type='submit'>
-						Войти
-					</button>
+					<Link to={'/main_page'}>
+						<button className='enter' type='submit'>
+							Войти
+						</button>
+					</Link>
 				</form>
 
 				<p className='want_ref'>
-					Нет аккаунта? <p className='link'> Зарегистрируйтесь сейчас</p>
+					Нет аккаунта?{' '}
+					<p className='link'>
+						<Link to='/regist'>Зарегистрируйтесь сейчас</Link>
+					</p>
 				</p>
 
 				<div className='enter_from'>

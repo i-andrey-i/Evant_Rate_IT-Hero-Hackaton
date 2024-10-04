@@ -1,6 +1,7 @@
 .log_in{
     margin-top: 10.6vw;
     margin-left: 6.4vw;
+    margin-right: 6.4vw;
 }
 
 .log_in b{
@@ -45,7 +46,6 @@
     align-items: center;
     margin-top: 4.2vw;
     margin-bottom: 5vw;
-
 }
 
 .log_in .want_ref .link{
@@ -55,7 +55,7 @@
 }
 
 .log_in .enter_from{
-    border-top: 0.5vw solid #D4D6DD; 
+    border-top: 0.5vw solid #D4D6DD;
     display: grid;
     justify-content: center;
     align-items: center;

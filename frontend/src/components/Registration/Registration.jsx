@@ -70,19 +70,19 @@ function Registration(){
 						onChange={handleChange}
 						required
 					/>
+
+					<div className='private'>
+						<div className='square'></div>
+						<span>
+							<p>Я прочитал и согласен с условиями и</p>
+							<p className='color'>политикой конфиденцивальности</p>
+						</span>
+					</div>
+
+					<button className='enter_button' type='submit'>
+						Зарегистрироваться
+					</button>
 				</form>
-
-				<div className='private'>
-					<div className='square'></div>
-					<span>
-						<p>Я прочитал и согласен с условиями и</p>
-						<p className='color'>политикой конфиденцивальности</p>
-					</span>
-				</div>
-
-				<button className='enter_button' type='submit'>
-					Зарегистрироваться
-				</button>
 			</div>
 		)
 }
