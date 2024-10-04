@@ -4,3 +4,7 @@
     box-sizing: border-box;
 }
 
+.no-underline{
+    text-decoration: none;
+    color: inherit;
+}

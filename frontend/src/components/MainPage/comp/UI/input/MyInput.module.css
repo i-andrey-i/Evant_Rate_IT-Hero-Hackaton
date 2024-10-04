@@ -1,0 +1,12 @@
+.myInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 78.6vw;
+    height: 12.8vw;
+    padding: 5px 15px;
+    margin-top: 3vw;
+    margin-left: 3.4vw;
+    border: 0.5vw solid #C5C6CC;
+    border-radius: 3vw;
+}

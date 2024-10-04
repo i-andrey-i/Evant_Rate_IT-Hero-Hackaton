@@ -1,0 +1,23 @@
+.criterBlock{
+    margin-top: 3vw;
+    width: 87.2vw;
+    height: 15vw;
+    margin-left: 4vw;
+    list-style: none;
+    border-radius: 3vw;
+    padding-left: 2vw;
+    border: 0.5vw solid #006FFD;
+}
+
+.criterBlock .criterTitle{
+    padding-top: 1vw;
+}
+
+.criterBlock .criterDisc{
+
+}
+
+.pageName{
+    margin-top: 4vw;
+    margin-left: 4vw;
+}

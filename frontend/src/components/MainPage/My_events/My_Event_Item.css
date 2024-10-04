@@ -1,17 +1,19 @@
 .my_event_item{
     margin-top: 2vw;
-    background: #d9dcea;
+    background: #e1e4f2;
     width: 91.4vw;
     height: 18.4vw;
     border-radius: 2vw;
     display: flex;
+    margin-left: 4.2vw;
+    margin-bottom: 5vw;
 }
 
 .my_event_item p{
     width: 21.3vw;
     height: 18.4vw;
     border-radius: 2vw;
-    background-color: rgb(175, 175, 212);
+    background-color: rgb(200, 200, 231);
     display: flex;
     justify-content: center;
     align-items: center;
