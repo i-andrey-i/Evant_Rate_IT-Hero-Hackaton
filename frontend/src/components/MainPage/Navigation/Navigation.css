@@ -1,0 +1,27 @@
+.Navigation{
+    margin-top: 15.2vw;
+    background-color: rgb(89, 108, 108);
+}
+
+.Nav_items{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2.1vw;
+
+}
+
+.Nav_item{
+    height: 3.4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.3vw;
+    margin-bottom: 2.3vw;
+    background: #EAF2FF;
+    padding: 2.1vw;
+    border-radius: 3.2vw;
+    color: #006FFD;
+
+
+}

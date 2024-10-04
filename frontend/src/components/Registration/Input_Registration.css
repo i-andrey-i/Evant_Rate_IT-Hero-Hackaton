@@ -1,0 +1,16 @@
+.input_registration{
+    margin-top: 3vw;
+    display: grid;
+}
+
+.input_registration input{
+    margin-top: 0.5vw;
+    width: 87.2vw;
+    height: 12.8vw;
+    padding-left: 2vw;
+    border-radius: 3vw;
+}
+
+.input_registration b{
+    margin-top: 1.5vw;
+}

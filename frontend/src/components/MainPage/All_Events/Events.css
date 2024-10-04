@@ -1,0 +1,16 @@
+.Events{
+    margin-top: 6.4vw;
+    margin-left: 4.2vw;
+    margin-right: 4.2vw;
+}
+
+.Title_ev{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1vw;
+}
+
+.Events span p{
+    color: #006FFD;
+
+}

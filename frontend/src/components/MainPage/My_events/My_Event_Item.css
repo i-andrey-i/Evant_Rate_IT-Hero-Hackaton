@@ -1,0 +1,27 @@
+.my_event_item{
+    margin-top: 2vw;
+    background: #d9dcea;
+    width: 91.4vw;
+    height: 18.4vw;
+    border-radius: 2vw;
+    display: flex;
+}
+
+.my_event_item p{
+    width: 21.3vw;
+    height: 18.4vw;
+    border-radius: 2vw;
+    background-color: rgb(175, 175, 212);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my_event_item ul{
+    list-style: none;
+    margin-top: 5vw;
+}
+
+.my_event_item li{
+    margin-left: 2vw;
+}

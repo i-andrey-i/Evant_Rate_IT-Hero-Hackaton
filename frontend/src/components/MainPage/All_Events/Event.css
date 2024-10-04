@@ -1,0 +1,49 @@
+.card_event{
+    border-radius: 2vw;
+    background-color: rgb(217, 221, 243);
+    width: 66.6vw;
+    height: auto;
+}
+
+.img_card{
+    width: 66.6vw;
+    height: 32vw;
+    background-color: #5297f0;
+    border-radius: 2vw;
+    text-align: center;
+}
+
+.card_info{
+    padding-top: 4.3vw;
+    padding-left: 4.3vw;
+    padding-bottom: 4.2vw;
+}
+
+.card_date{
+    padding: 0.5vw;
+    width: 19.2vw;
+    height: auto;
+    color: white;
+    background: #006FFD;
+    border-radius: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vw;
+    float: right;
+    margin-right: 1vw;
+}
+
+.card_go{
+    margin-top: 4.2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 58.1vw;
+    height: 10.6vw;
+    color: #006FFD;
+    border: 0.5vw solid #006FFD;
+    border-radius: 2vw;
+
+
+}

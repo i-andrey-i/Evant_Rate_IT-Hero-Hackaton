@@ -1,0 +1,39 @@
+.registration{
+    margin-left: 6.4vw;
+    margin-top: 6.4vw;
+}
+
+.registration .reg_bott{
+    margin-top: 2.1vw;
+}
+
+.registration .private{
+    margin-top: 6.4vw;
+    display: flex;
+    gap: 3.1vw;
+    margin-bottom: 5vw;
+}
+
+.registration .private .square{
+    width: 6.4vw;
+    height: 6.4vw;
+    border: 0.3vw solid gray;
+    background-color: transparent;
+}
+
+.registration .private .color{
+    color: #006FFD;
+
+}
+
+.registration .enter_button{
+    margin-top: 2vw;
+    justify-content: center;
+    align-items: center;
+    width: 87.2vw;
+    height: 12vw;
+    color: white;
+    background: #006FFD;
+    border-radius: 3vw;
+    margin-bottom: 2vw;
+}
